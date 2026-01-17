@@ -15,3 +15,9 @@ python -m venv .venv
 pip install -r requirements.txt
 python ./auto_clicker.py
 ```
+
+## Note on images
+
+This relies on the static images in this repo: [download_manually.png](download_manually.png) and [continue.png](continue.png)
+
+If they change in the future, you could always use this same code and just replace with screenshots of the new buttons.
