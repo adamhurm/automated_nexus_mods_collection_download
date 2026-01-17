@@ -7,8 +7,8 @@ I would recommend buying (or trial-run) Nexus Mods premium because the capped do
 ## Installation and usage
 
 ```bash
-git clone github.com/adamhurm/automated_nexus_mods_collection_downloader
-cd automated_nexus_mods_collection_downloader
+git clone github.com/adamhurm/automated_nexus_mods_collection_download
+cd automated_nexus_mods_collection_download
 python -m venv .venv
 .venv/bin/activate     # (macOS/Linux)
 .venv/Scripts/activate # (Windows)
@@ -19,5 +19,6 @@ python ./auto_clicker.py
 ## Note on images
 
 This relies on the static images in this repo: [download_manually.png](download_manually.png) and [continue.png](continue.png)
+
 
 If they change in the future, you could always use this same code and just replace with screenshots of the new buttons.
